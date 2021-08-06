@@ -13,7 +13,7 @@ for i in range(1,1001):
     if a>=k:
         ans = max(ans,i*k//2)
         continue
-    fruits.sort(revers = True,key = lambda x:x%i)
+    fruits.sort(reverse = True,key = lambda x:x%i)
     temp = (a-k//2)*i
     for j in range(k-a):
         if j>n-1:
